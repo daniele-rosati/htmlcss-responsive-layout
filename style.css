@@ -3,7 +3,80 @@
     margin: 0;
     padding: 0;
 }
-.container{
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+/* ---- head ---- */
+
+#head{
+    max-width: 100%;
+    background: #0084fd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container-head{
+    max-width: 1240px ;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+.row-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#top-links li {
+    display: inline;
+    padding: 0 5px;
+    color: white;
+}
+
+.btn-head{
+    color: black;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+/* ---- head ---- */
+
+.container-intro{
     max-width: 1170px;
     padding: 0 10px;
     margin: 0 auto;
@@ -22,7 +95,7 @@
 
 #intro .col{
     width: calc(100% / 3);
-    margin-bottom: 20pxs;
+    margin-bottom: 20px;
 }
 
 #intro .col-big{
@@ -37,6 +110,14 @@
 
 
 @media screen  and (max-width: 992px) {
+
+    .link{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
     
 }
 
