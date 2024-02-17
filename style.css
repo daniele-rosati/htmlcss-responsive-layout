@@ -39,6 +39,13 @@ body{
 h1{
     padding: 5px;
     text-align: center;
+    color: #0084fd;
+    font-size: 20pxs;
+}
+
+p{
+    height: 50%;
+    padding: 10px;
 }
 
 
@@ -120,35 +127,52 @@ ul#top-links li {
     background: lightblue;
     text-align: center;
     border-radius: 30px;
+    height: 100%;
 }
 
 .card-img{
     display: flex;
-    flex-wrap: wrap;
+   
 
 }
-
-
 
 .title-img{
     text-align: left;
     width: 50%;
+    margin: 10px;
+    
+}
+
+.btn-apple{
+    margin: 10px 0;
+    padding: 10px 40px;
+    background: #0084fd;
+    color: white;
+    border: none;
+    border-radius: 30px;
 
 }
 
 .card-phone{
     max-width: 100%;
     width: 250px;
+    margin-bottom: -5px;
 }
 
 .icon{
-    color: blue;
+    color: #0084fd;
     text-align: center;
     padding: 0 10px;
     font-size: 50px ;
+    padding-top: 10px;
 
 }
 
+.title-icon{
+    padding: 0 10px;
+    color: #0084fd;
+    font-size: 20px;
+}
 
 @media screen  and (max-width: 992px) {
 
@@ -160,14 +184,43 @@ ul#top-links li {
         display: block;
     }
 
+    .card-img{
+        display: flex;
+        flex-direction: row;
+    }
+    
   
 }
 
 @media screen  and  (max-width: 768px){
 
+    body{
+        max-width: 100%;
+    }
+
     #intro .col{
         width: 100%;
         margin-bottom: 10px;
+    }
+    
+    .row-head{
+        display: flex;
+    }
+
+    .container-intro{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        padding-bottom: 10px;
+    }
+
+    .card-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 }
