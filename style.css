@@ -318,10 +318,20 @@ ul#top-links li {
 
 .box-img{
     margin: 0 auto;
+    display: flex;
+    align-items: center;
     max-width: 100%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.testimonial-1{
+    border-top-left-radius: 50% 50% ;
+    border-top-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50% ;
+    border-bottom-right-radius: 50% 50% ;
+    overflow: hidden;
 }
 
 .par{
