@@ -268,7 +268,9 @@ ul#top-links li {
     max-width: 1170px;
     padding: 10px;
     margin: 0 auto;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-txt{
@@ -276,6 +278,7 @@ ul#top-links li {
     text-align: center;
     width: 100%;
     height: 30%;
+    
 }
 
 .title{
@@ -298,10 +301,11 @@ ul#top-links li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding: 10px;
 }
 
 .container-tables{
-    max-width: 100%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,7 +330,9 @@ ul#top-links li {
     border-radius: 50%;
 }
 
-.testimonial-1{
+
+
+.testimonial{
     border-top-left-radius: 50% 50% ;
     border-top-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50% ;
@@ -338,10 +344,90 @@ ul#top-links li {
     display: flex;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 
 /* ---- testimonials ---- */
+
+/* ---- working with us ---- */
+
+#working-with-us{
+    background-color: #9792e4;
+}
+
+.container-working{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+.row-work{
+    display: flex;
+    
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.col-work{
+    padding: 0 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+
+.numbers{
+    text-align: center;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+#working-with-us .col-work{
+    flex-grow: 1;
+    height: 100% ;
+
+}
+
+.title-working{
+    text-align: center;
+    padding: 30px ;
+    color: #fff;
+    font-size: 30px;
+}
+
+.number-big{
+    text-align: justify;
+    color: #9792e4;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.title-number{
+    color: #9792e4;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.btn-work{
+    margin: 15px 0;
+    padding: 10px 40px;
+    background: #9792e4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+
+/* ---- working with us ---- */
 
 @media screen  and (max-width: 992px) {
 
@@ -358,6 +444,10 @@ ul#top-links li {
         flex-direction: row;
     }
     
+    #working-with-us .col-work{
+        width: calc(100% / 3);
+        margin-bottom: 20px;
+    }
   
 }
 
@@ -404,4 +494,15 @@ ul#top-links li {
         margin-top: 10px ;
     }
     
+    .box-img{
+        width: 100%;
+    }
+
+    .row-work{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
