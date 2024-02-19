@@ -493,6 +493,82 @@ ul#top-links li {
 
 /* ---- about us ---- */
 
+/* ---- get started ---- */
+
+#get-started{
+    background-color: #9792e4;
+    padding-bottom: 50px;
+}
+
+.container-start{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9792e4;
+
+}
+
+.head-start{
+    font-style: initial;
+    padding: 10px;
+    
+}
+
+.title-start{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.txt-start{
+    font-size: 80px;
+    color: orange;
+}
+
+.par-start{
+    color: white;
+}
+
+.btn-start{
+    
+        margin: 15px 0;
+        padding: 10px 40px;
+        background: #fff;
+        border: none;
+        border-radius: 30px;
+}
+
+
+
+/* ---- get started ---- */
+
+/* --- footer --- */
+
+.footer {
+    background-color: #000;
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.container-footer{
+    display: flex;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content p {
+    margin: 0 20px; /* Margine tra i testi */
+}
+
+
 @media screen  and (max-width: 992px) {
 
     .link{
